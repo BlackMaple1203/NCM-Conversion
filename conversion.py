@@ -37,6 +37,6 @@ def convert_ncm_to_mp3(input_folder, output_folder):
         os.remove(new_file_path)
     print("====================================")   
     print("All files converted to mp3 successfully!")
-input_folder = "/Users/tony/Desktop/Tony/大学/💗/Anniversary/Audio"
-output_folder = "/Users/tony/Desktop/Tony/大学/💗/Anniversary/Audio_Exported"
+input_folder = "/Users/tony/Desktop/Tony/Audio"
+output_folder = "/Users/tony/Desktop/Tony/Audio_Exported"
 convert_ncm_to_mp3(input_folder, output_folder)
